@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+  int a = 200;
+  int *p = &a;
+  printf("The address of a is %d", p);
+  printf("The address is %d", p++);
+  return 0;
+}
